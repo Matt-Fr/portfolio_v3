@@ -23,6 +23,26 @@ const ProjectCard = (props: Props) => {
         <p>How to park your car at your garage?</p>
         <div className="card-actions justify-end">
           <button className="btn btn-primary">Learn now!</button>
+          <button
+            className="btn"
+            onClick={() => {
+              const modal = document.getElementById("my_modal_2");
+              if (modal) {
+                (modal as HTMLDialogElement).showModal();
+              }
+            }}
+          >
+            open modal
+          </button>
+          <dialog id="my_modal_2" className="modal">
+            <div className="modal-box">
+              <h3 className="font-bold text-lg">{props.title}</h3>
+              <p className="py-4">{props.descriptionFr}</p>
+            </div>
+            <form method="dialog" className="modal-backdrop">
+              <button>close</button>
+            </form>
+          </dialog>
         </div>
       </div>
     </div>
