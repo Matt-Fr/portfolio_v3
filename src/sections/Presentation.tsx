@@ -1,4 +1,5 @@
 import React from "react";
+import pdf from "../assets/CV-Matthieu-Franck.pdf";
 
 type Props = {};
 
@@ -28,6 +29,15 @@ const Presentation = (props: Props) => {
             perspiciatis harum?
           </p>
           <button className="btn btn-primary">Get Started</button>
+
+          <a
+            href={pdf}
+            target="_blank"
+            className="btn btn-outline ml-3"
+            rel="noopener noreferrer"
+          >
+            Télécharger mon CV
+          </a>
         </div>
       </div>
     </section>

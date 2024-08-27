@@ -14,8 +14,8 @@ type Props = {
 
 const ProjectCard = (props: Props) => {
   return (
-    <div className="card glass w-96 overflow-hidden">
-      <div className="max-h-60 flex justify-center items-start overflow-hidden ">
+    <div className="card glass bg-base-100 w-96 shadow-xl overflow-hidden">
+      <div className="h-60 flex justify-center items-start overflow-hidden ">
         <img src={props.picture} alt="car!" className="object-cover" />
       </div>
       <div className="card-body">
