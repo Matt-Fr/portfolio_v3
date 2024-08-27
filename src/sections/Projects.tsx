@@ -1,13 +1,12 @@
 import React from "react";
 import { dataProjects } from "../data/projects";
+import ProjectCard from "../components/ProjectCard";
 
-type Props = {};
-
-const Projects = (props: Props) => {
+const Projects = () => {
   return (
-    <section>
-      {dataProjects.map((project: { id: number; title: string }) => (
-        <div key={project.id}>{project.title}</div>
+    <section id="projects">
+      {dataProjects.map((project) => (
+        <ProjectCard key={project.id} {...project} />
       ))}
     </section>
   );

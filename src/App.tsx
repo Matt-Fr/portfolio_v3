@@ -2,6 +2,7 @@ import Presentation from "./sections/Presentation";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Presentation />
       <Projects />
       <Contact />
+      <Footer />
     </>
   );
 }
