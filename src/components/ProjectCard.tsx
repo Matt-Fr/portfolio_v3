@@ -8,19 +8,16 @@ type Props = {
   descriptionEn: string;
   descriptionFr: string;
   tags: string[];
-  demo?: string; // Make demo optional
+  demo?: string;
   linkGithub: string;
 };
 
 const ProjectCard = (props: Props) => {
   return (
-    <div className="card glass w-96">
-      <figure>
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-          alt="car!"
-        />
-      </figure>
+    <div className="card glass w-96 overflow-hidden">
+      <div className="max-h-60 flex justify-center items-start overflow-hidden ">
+        <img src={props.picture} alt="car!" className="object-cover" />
+      </div>
       <div className="card-body">
         <h2 className="card-title">{props.title}</h2>
         <p>How to park your car at your garage?</p>

@@ -1,9 +1,19 @@
+import kasa from "../assets/projectImages/kasa.jpg";
+
+import movieFinder from "../assets/projectImages/movieFinder.jpg";
+import lesPetitsPlats from "../assets/projectImages/lespetitsplats.jpg";
+import ohmyfood from "../assets/projectImages/ohmyfood.jpg";
+import sportsee from "../assets/projectImages/sportsee.jpg";
+import argentBank from "../assets/projectImages/argentBank.jpg";
+import portfolio from "../assets/projectImages/portfolio.jpg";
+import fisheye from "../assets/projectImages/fisheye.jpg";
+
 export const dataProjects = [
   {
     id: 5,
     title: "Kasa",
     logo: "logoKasa",
-    picture: "kasa",
+    picture: kasa,
     descriptionEn:
       "The Kasa apartment rental application was my first project built with React and React Router. I then upgraded the project with next.js, typescript and tailwindcss. The application enables the user to navigate between various rental properties. When selected, each rental listing contains a brief description of the property, image gallery, and user ratings.",
     descriptionFr:
@@ -16,7 +26,7 @@ export const dataProjects = [
     id: 6,
     title: "SportSee",
     logo: "logoSportsee",
-    picture: "sportsee",
+    picture: sportsee,
     descriptionEn:
       "The Sportsee application is a dashboard which uses data (calories burned, length of workout, etc.) from an external API to create data visualizations of the athletic performances of two individuals. The graphs were created using the Recharts library and the state management using a context hook. The welcome interface contains four buttons for the two individuals: two buttons bring the user to the data visualizations based on the external API, and two buttons also display data visualizations for the same two individuals but this time pulling mock data. The application is not designed for tablet or mobile use (1024 pixels or higher).",
     descriptionFr:
@@ -29,7 +39,7 @@ export const dataProjects = [
     id: 8,
     title: "Portfolio",
     logo: "logoPortfolio",
-    picture: "portfolio",
+    picture: portfolio,
     descriptionEn:
       "You are currently viewing my portfolio, which I created using React and React Router. I also utilized 'useContext' to effectively manage the application's state. I chose not to use any additional libraries in order to keep things simple. The application is also responsive, multilingual (English, French) and has a light/dark mode.",
     descriptionFr:
@@ -41,7 +51,7 @@ export const dataProjects = [
     id: 7,
     title: "Argent Bank",
     logo: "logoArgentBank",
-    picture: "argentBank",
+    picture: argentBank,
     descriptionEn:
       "Please note : The backend of the application must be installed before using this project. Please follow the installation instructions on the project's Github page. The ArgentBank application allows for authentication to a bank's service and interaction with its API. Redux Toolkit is used for state management and axios for API calls.",
     descriptionFr:
@@ -53,7 +63,7 @@ export const dataProjects = [
     id: 3,
     title: "Les Petits Plats",
     logo: "logoLesPetitsPlats",
-    picture: "lesPetitsPlats",
+    picture: lesPetitsPlats,
     descriptionEn:
       "Les Petits Plats is a website developed using vanilla JavaScript which allows the user to enter multiple search criteria using pre-set filters and a search bar to search a database of 50 recipes. The principal skill showcased within this project is the development of an algorithm to display information based on the searched criteria.",
     descriptionFr:
@@ -67,7 +77,7 @@ export const dataProjects = [
     id: 4,
     title: "FilmFinder",
     logo: "logoFilmFinder",
-    picture: "movieFinder",
+    picture: movieFinder,
     descriptionEn:
       "In creating the FilmFinder project, I learned how to use an external API. This application, created using React and React Router, allows the user to search a film through the use of a search bar. When a film name is selected, the user is directed to a page which includes a short description of the film, and the film rating. The IMDB API was used in order to pull film rating information for display in the application.",
     descriptionFr:
@@ -81,7 +91,7 @@ export const dataProjects = [
     id: 2,
     title: "Fisheye",
     logo: "logoFisheye",
-    picture: "fisheye",
+    picture: fisheye,
     descriptionEn:
       "The Fisheye application was my first website created from scratch using vanilla JavaScript through my OpenClassrooms course. The principal skills used in the creation of this website are: Develop a modular web application utilizing several design patterns, write JavaScript code so that is maintainable, manage the events of a site using JavaScript, and website accessibility. Building this site in JavaScript without access to a JavaScript library enabled me to learn the basics of the language and later, to fully understand and appreciate the advantages of a JavaScript framework.",
     descriptionFr:
@@ -94,7 +104,7 @@ export const dataProjects = [
     id: 1,
     title: "OhMyFood",
     logo: "logoOhmyfood",
-    picture: "ohmyfood",
+    picture: ohmyfood,
     descriptionEn:
       "OhMyFood is one of my first projects created exclusively in HTML with the SCSS preprocessor. The site was built with the “mobile first” approach and gave me the opportunity to use CSS animations. Among the principal skills used in this project are: to put in place a navigation structure for a website, to use advanced CSS graphics, to ensure the graphical coherence of the website.",
     descriptionFr:
