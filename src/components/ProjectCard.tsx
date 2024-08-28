@@ -26,9 +26,11 @@ const ProjectCard = (props: Props) => {
         <h2 className="card-title">{props.title}</h2>
         <p>{props.descriptionFr.substring(0, 100)}...</p>
         <div className="card-actions justify-end">
-          <a href={props.demo} target="_blank" className="btn btn-primary">
-            Demo
-          </a>
+          {props.demo && (
+            <a href={props.demo} target="_blank" className="btn btn-primary">
+              Demo
+            </a>
+          )}
           <button
             className="btn"
             onClick={() => {
@@ -42,16 +44,39 @@ const ProjectCard = (props: Props) => {
           </button>
           <dialog id={modalId} className="modal">
             <div className="modal-box">
-              <h3 className="font-bold text-lg">{props.title}</h3>
+              <header className="flex justify-between items-center">
+                <h3 className="font-bold text-lg">{props.title}</h3>
+                <form method="dialog" className=" md:hidden">
+                  <button className="btn btn-sm btn-circle btn-outline">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M6 18L18 6M6 6l12 12"
+                      />
+                    </svg>
+                  </button>
+                </form>
+              </header>
+
               <p className="py-4">{props.descriptionFr}</p>
               <div className="flex justify-end">
-                <a
-                  href={props.demo}
-                  target="_blank"
-                  className="btn btn-primary"
-                >
-                  Demo
-                </a>
+                {props.demo && (
+                  <a
+                    href={props.demo}
+                    target="_blank"
+                    className="btn btn-primary"
+                  >
+                    Demo
+                  </a>
+                )}
                 <a
                   href={props.linkGithub}
                   target="_blank"
