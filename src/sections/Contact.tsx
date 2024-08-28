@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-const Contact = (props: Props) => {
+const Contact = () => {
   return (
     <section id="contact">
       <div className="hero bg-base-200 min-h-screen">

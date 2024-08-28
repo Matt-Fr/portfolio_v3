@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-const Navbar = (props: Props) => {
+const Navbar = () => {
   return (
     <div className="navbar bg-base-100 justify-center">
       <a className="btn btn-ghost text-xl" href="#presentation">

@@ -1,9 +1,6 @@
-import React from "react";
 import pdf from "../assets/CV-Matthieu-Franck.pdf";
 
-type Props = {};
-
-const Presentation = (props: Props) => {
+const Presentation = () => {
   return (
     <section id="presentation" className="hero bg-base-200 min-h-screen">
       <div className="hero-content flex-col lg:flex-row">
