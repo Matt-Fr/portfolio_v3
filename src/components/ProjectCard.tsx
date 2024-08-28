@@ -1,5 +1,3 @@
-import React from "react";
-
 type Props = {
   id: number;
   title: string;
@@ -26,9 +24,11 @@ const ProjectCard = (props: Props) => {
       </div>
       <div className="card-body">
         <h2 className="card-title">{props.title}</h2>
-        <p>{props.descriptionEn.substring(0, 100)}...</p>
+        <p>{props.descriptionFr.substring(0, 100)}...</p>
         <div className="card-actions justify-end">
-          <button className="btn btn-primary">Learn now!</button>
+          <a href={props.demo} target="_blank" className="btn btn-primary">
+            Demo
+          </a>
           <button
             className="btn"
             onClick={() => {
@@ -38,12 +38,28 @@ const ProjectCard = (props: Props) => {
               }
             }}
           >
-            Open Modal
+            Plus de détails
           </button>
           <dialog id={modalId} className="modal">
             <div className="modal-box">
               <h3 className="font-bold text-lg">{props.title}</h3>
               <p className="py-4">{props.descriptionFr}</p>
+              <div className="flex justify-end">
+                <a
+                  href={props.demo}
+                  target="_blank"
+                  className="btn btn-primary"
+                >
+                  Demo
+                </a>
+                <a
+                  href={props.linkGithub}
+                  target="_blank"
+                  className="btn btn-secondary ml-3"
+                >
+                  Github
+                </a>
+              </div>
             </div>
             <form method="dialog" className="modal-backdrop">
               <button>Close</button>
