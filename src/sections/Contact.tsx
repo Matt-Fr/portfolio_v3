@@ -5,10 +5,25 @@ const Contact = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left">
             <h1 className="text-5xl font-bold">Contactez-moi!</h1>
-            <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+            <p className="py-6 text-xl">
+              Vous pouvez me contactez en remplissant la forme ci-contre ou bien
+              par{" "}
+              <a
+                className="link link-info"
+                href="mailto:matthieu_franck@orange.fr"
+              >
+                email
+              </a>{" "}
+              ou sur{" "}
+              <a
+                href="https://www.linkedin.com/in/matthieu-franck/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link link-info"
+              >
+                LinkedIn
+              </a>
+              .
             </p>
           </div>
           <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
