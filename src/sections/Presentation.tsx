@@ -3,15 +3,13 @@ import reactLogo from "../assets/react.svg";
 import angularLogo from "../assets/angular.svg";
 import nodeLogo from "../assets/node-js.svg";
 import nestLogo from "../assets/nestJs.svg";
+import authorPic from "../assets/authorPic.jpg";
 
 const Presentation = () => {
   return (
     <section id="presentation" className="hero bg-base-200 min-h-screen">
       <div className="hero-content flex-col lg:flex-row">
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-          className="max-w-sm rounded-lg shadow-2xl"
-        />
+        <img src={authorPic} className="max-w-sm rounded-lg shadow-2xl" />
         <div>
           <h1 className="text-5xl font-bold">Matthieu Franck</h1>
           <p className="py-6">
@@ -29,7 +27,7 @@ const Presentation = () => {
             repudiandae atque veniam dignissimos velit quisquam libero
             perspiciatis harum?
           </p>
-          <div className="flex flex-col bg-base-100 rounded-xl shadow-2xl max-w-max p-4 my-3">
+          <div className="flex flex-col bg-base-100 rounded-xl shadow-2xl max-w-max p-4 mb-10 mt-4">
             <h2 className="text-2xl semi-bold flex mb-3">Technologies</h2>
             <div className=" w-content max-w-max">
               <div className="avatar tooltip" data-tip="React">
@@ -54,7 +52,7 @@ const Presentation = () => {
               </div>
             </div>
           </div>
-          <div className=" flex">
+          <div className=" flex ">
             <a href="#projects" className="btn btn-primary">
               Mes projets
             </a>
