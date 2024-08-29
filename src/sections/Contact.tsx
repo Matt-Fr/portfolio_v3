@@ -46,7 +46,7 @@ const Contact = () => {
               </div>
 
               <div className="form-control mt-6">
-                <button className="btn btn-primary">Send</button>
+                <button className="btn btn-primary">Envoyer</button>
               </div>
             </form>
           </div>

@@ -65,7 +65,11 @@ const ProjectCard = (props: Props) => {
                   </button>
                 </form>
               </header>
-
+              <div className="flex mt-3">
+                {props.tags.map((tag) => (
+                  <div className="badge badge-neutral mr-2">{tag}</div>
+                ))}
+              </div>
               <p className="py-4">{props.descriptionFr}</p>
               <div className="flex justify-end">
                 {props.demo && (
