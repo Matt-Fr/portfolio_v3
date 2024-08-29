@@ -9,7 +9,7 @@ const Presentation = () => {
   return (
     <section id="presentation" className="hero bg-base-200 min-h-screen">
       <div className="hero-content flex-col lg:flex-row">
-        <img src={authorPic} className="max-w-sm rounded-lg shadow-2xl" />
+        <img src={authorPic} className="max-w-sm rounded-lg shadow-2xl mr-4" />
         <div>
           <h1 className="text-5xl font-bold">Matthieu Franck</h1>
           <p className="py-6">
@@ -28,10 +28,12 @@ const Presentation = () => {
             perspiciatis harum?
           </p>
           <div className="flex flex-col bg-base-100 rounded-xl shadow-2xl max-w-max p-4 mb-10 mt-4">
-            <h2 className="text-2xl semi-bold flex mb-3">Technologies</h2>
+            <h2 className="text-2xl semi-bold flex mb-3">
+              Technologies principales
+            </h2>
             <div className=" w-content max-w-max">
               <div className="avatar tooltip" data-tip="React">
-                <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2 ">
+                <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2 bg-base-100">
                   <img src={reactLogo} className="" alt="React logo" />
                 </div>
               </div>
