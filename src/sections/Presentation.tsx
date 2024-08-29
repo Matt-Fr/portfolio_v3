@@ -1,4 +1,8 @@
 import pdf from "../assets/CV-Matthieu-Franck.pdf";
+import reactLogo from "../assets/react.svg";
+import angularLogo from "../assets/angular.svg";
+import nodeLogo from "../assets/node-js.svg";
+import nestLogo from "../assets/nestJs.svg";
 
 const Presentation = () => {
   return (
@@ -25,7 +29,32 @@ const Presentation = () => {
             repudiandae atque veniam dignissimos velit quisquam libero
             perspiciatis harum?
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <div>
+            <h2 className="text-2xl semi-bold">Skills</h2>
+            <div className="avatar tooltip" data-tip="React">
+              <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                <img src={reactLogo} className="" alt="React logo" />
+              </div>
+            </div>
+            <div className="avatar tooltip" data-tip="Angular">
+              <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                <img src={angularLogo} className="" />
+              </div>
+            </div>
+            <div className="avatar tooltip" data-tip="NodeJs">
+              <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                <img src={nodeLogo} />
+              </div>
+            </div>
+            <div className="avatar tooltip" data-tip="NestJs">
+              <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                <img src={nestLogo} />
+              </div>
+            </div>
+          </div>
+          <a href="#projects" className="btn btn-primary">
+            Mes projets
+          </a>
 
           <a
             href={pdf}
