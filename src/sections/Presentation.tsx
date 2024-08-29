@@ -29,41 +29,45 @@ const Presentation = () => {
             repudiandae atque veniam dignissimos velit quisquam libero
             perspiciatis harum?
           </p>
-          <div>
-            <h2 className="text-2xl semi-bold">Skills</h2>
-            <div className="avatar tooltip" data-tip="React">
-              <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
-                <img src={reactLogo} className="" alt="React logo" />
+          <div className="flex flex-col bg-base-100 rounded-xl shadow-2xl max-w-max p-4 my-3">
+            <h2 className="text-2xl semi-bold flex mb-3">Technologies</h2>
+            <div className=" w-content max-w-max">
+              <div className="avatar tooltip" data-tip="React">
+                <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2 ">
+                  <img src={reactLogo} className="" alt="React logo" />
+                </div>
               </div>
-            </div>
-            <div className="avatar tooltip" data-tip="Angular">
-              <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
-                <img src={angularLogo} className="" />
+              <div className="avatar tooltip" data-tip="Angular">
+                <div className="bg-base-100 ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                  <img src={angularLogo} className="" />
+                </div>
               </div>
-            </div>
-            <div className="avatar tooltip" data-tip="NodeJs">
-              <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
-                <img src={nodeLogo} />
+              <div className="avatar tooltip" data-tip="NodeJs">
+                <div className=" bg-base-100 ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                  <img src={nodeLogo} />
+                </div>
               </div>
-            </div>
-            <div className="avatar tooltip" data-tip="NestJs">
-              <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
-                <img src={nestLogo} />
+              <div className="avatar tooltip" data-tip="NestJs">
+                <div className="bg-base-100 ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                  <img src={nestLogo} />
+                </div>
               </div>
             </div>
           </div>
-          <a href="#projects" className="btn btn-primary">
-            Mes projets
-          </a>
+          <div className=" flex">
+            <a href="#projects" className="btn btn-primary">
+              Mes projets
+            </a>
 
-          <a
-            href={pdf}
-            target="_blank"
-            className="btn btn-outline ml-3"
-            rel="noopener noreferrer"
-          >
-            Télécharger mon CV
-          </a>
+            <a
+              href={pdf}
+              target="_blank"
+              className="btn btn-outline ml-3"
+              rel="noopener noreferrer"
+            >
+              Télécharger mon CV
+            </a>
+          </div>
         </div>
       </div>
     </section>
