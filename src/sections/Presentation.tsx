@@ -2,7 +2,7 @@ import pdf from "../assets/CV-Matthieu-Franck.pdf";
 import reactLogo from "../assets/svg/react.svg";
 import angularLogo from "../assets/svg/angular.svg";
 import nodeLogo from "../assets/svg/node-js.svg";
-import nestLogo from "../assets/svg/nestJs.svg";
+import nestLogo from "../assets/svg/nest-js.svg";
 import authorPic from "../assets/authorPic.jpg";
 
 const Presentation = () => {
