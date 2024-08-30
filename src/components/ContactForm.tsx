@@ -22,7 +22,7 @@ const ContactForm = () => {
         </label>
         <input
           type="text"
-          name="nom"
+          name="name"
           placeholder="Nom"
           className="input input-bordered"
           required
@@ -34,7 +34,7 @@ const ContactForm = () => {
         </label>
         <input
           type="text"
-          name="entreprise"
+          name="company"
           placeholder="Entreprise (optionnel)"
           className="input input-bordered"
         />
