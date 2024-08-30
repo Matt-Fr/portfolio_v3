@@ -5,6 +5,7 @@ type Props = {
   picture: string;
   descriptionEn: string;
   descriptionFr: string;
+  shortDescription: string;
   tags: string[];
   demo?: string;
   linkGithub: string;
@@ -24,7 +25,7 @@ const ProjectCard = (props: Props) => {
       </div>
       <div className="card-body">
         <h2 className="card-title">{props.title}</h2>
-        <p>{props.descriptionFr.substring(0, 100)}...</p>
+        <p>{props.shortDescription}</p>
         <div className="card-actions justify-end">
           {props.demo && (
             <a href={props.demo} target="_blank" className="btn btn-primary">
