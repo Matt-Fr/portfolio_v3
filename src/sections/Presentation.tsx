@@ -13,19 +13,17 @@ const Presentation = () => {
         <div>
           <h1 className="text-5xl font-bold">Matthieu Franck</h1>
           <p className="py-6">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
-            autem beatae voluptates consequuntur praesentium, sapiente laborum
-            totam vitae cupiditate dolore, maiores veniam iste, modi ipsa quo.
-            Quos tempore ex a repellat debitis doloribus excepturi unde suscipit
-            magnam? Eligendi beatae cumque in maxime quisquam, quas consequatur
-            autem commodi possimus architecto rem maiores excepturi assumenda
-            illum delectus at pariatur saepe placeat, quidem dignissimos impedit
-            fuga, tenetur enim voluptatum! Recusandae possimus laboriosam non
-            laborum facere. Ipsum, exercitationem sapiente voluptatem
-            repellendus voluptatum necessitatibus? Beatae fugit obcaecati
-            consequuntur quos expedita laboriosam magni soluta, nemo quis sint
-            repudiandae atque veniam dignissimos velit quisquam libero
-            perspiciatis harum?
+            Après une reconversion du secteur marketing au développement web,
+            j'ai suivi une formation approfondie chez OpenClassrooms. Passionné
+            par la création d'interfaces utilisateur, j'aime explorer et
+            m'adapter à de nouveaux outils pour concevoir des projets sur mesure
+            qui répondent parfaitement aux besoins de mes clients. J'ai eu
+            l'opportunité de travailler au sein de l'agence web et de
+            communication "Agence La Fusée", où j'ai contribué au développement
+            d'un logiciel SaaS pour le groupe Provalliance. Bien que mon
+            expertise principale soit orientée vers le front-end, je prends
+            également plaisir à travailler sur des technologies back-end, ce qui
+            me permet d'avoir une approche complète du développement web.
           </p>
           <div className="flex flex-col bg-base-100 rounded-xl shadow-2xl max-w-max p-4 mb-10 mt-4">
             <h2 className="text-2xl semi-bold flex mb-3">
