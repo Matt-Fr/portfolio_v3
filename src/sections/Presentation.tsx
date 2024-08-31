@@ -9,7 +9,10 @@ const Presentation = () => {
   return (
     <section id="presentation" className="hero bg-base-200 min-h-screen">
       <div className="hero-content flex-col lg:flex-row">
-        <img src={authorPic} className="max-w-sm rounded-lg shadow-2xl mr-4" />
+        <img
+          src={authorPic}
+          className="md:max-w-sm max-w-64 rounded-lg shadow-2xl md:mr-4"
+        />
         <div>
           <h1 className="text-5xl font-bold">Matthieu Franck</h1>
           <p className="py-6">

@@ -15,7 +15,7 @@ const ProjectCard = (props: Props) => {
   const modalId = `modal_${props.id}`;
 
   return (
-    <div className="card glass bg-base-100 w-96 shadow-xl overflow-hidden">
+    <div className="card glass bg-base-100 md:w-96 shadow-xl overflow-hidden">
       <div className="h-60 flex justify-center items-start overflow-hidden ">
         <img
           src={props.picture}
