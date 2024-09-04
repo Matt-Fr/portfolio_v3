@@ -5,7 +5,6 @@ import lesPetitsPlats from "../assets/projectImages/lespetitsplats.jpg";
 import ohmyfood from "../assets/projectImages/ohmyfood.jpg";
 import sportsee from "../assets/projectImages/sportsee.jpg";
 import argentBank from "../assets/projectImages/argentBank.jpg";
-import portfolio from "../assets/projectImages/portfolio.jpg";
 import fisheye from "../assets/projectImages/fisheye.jpg";
 import pokedex from "../assets/projectImages/pokedex.jpg";
 
