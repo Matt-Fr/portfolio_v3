@@ -24,20 +24,7 @@ export const dataProjects = [
     demo: "https://kasa-matt-fr.vercel.app/",
     linkGithub: "https://github.com/Matt-Fr/Franck_Matthieu_11_26042022",
   },
-  {
-    id: 9,
-    title: "Pokedex",
-    logo: "logoPokedex",
-    picture: pokedex,
-    shortDescription: "Pokédex avec recherche et détails des Pokémon.",
-    descriptionEn:
-      "This application is a classic Pokédex that I developed for a test. It uses GraphQL to interact with the beta version of the Pokémon API, along with Tailwind CSS and Next.js in TypeScript. You can search for a Pokémon and view its detailed characteristics.",
-    descriptionFr:
-      "Cette application est un Pokédex classique que j'ai développée pour un test. Elle utilise GraphQL pour interagir avec la version bêta de l'API Pokémon, ainsi que Tailwind CSS et Next.js en TypeScript. Vous pouvez rechercher un Pokémon et consulter ses caractéristiques détaillées.",
-    tags: ["Typescript", "Next.js", "Graphql"],
-    demo: "https://mattfr-pokedex.netlify.app/",
-    linkGithub: "https://github.com/Matt-Fr/technical-test-pokedex",
-  },
+
   {
     id: 6,
     title: "SportSee",
@@ -79,6 +66,20 @@ export const dataProjects = [
       "Application bancaire avec authentification et interactions API.",
     tags: ["React", "Redux Toolkit", "axios", "Swagger"],
     linkGithub: "https://github.com/Matt-Fr/franck_matthieu_13_21092022",
+  },
+  {
+    id: 9,
+    title: "Pokedex",
+    logo: "logoPokedex",
+    picture: pokedex,
+    shortDescription: "Pokédex avec recherche et détails des Pokémon.",
+    descriptionEn:
+      "This application is a classic Pokédex that I developed for a test. It uses GraphQL to interact with the beta version of the Pokémon API, along with Tailwind CSS and Next.js in TypeScript. You can search for a Pokémon and view its detailed characteristics.",
+    descriptionFr:
+      "Cette application est un Pokédex classique que j'ai développée pour un test. Elle utilise GraphQL pour interagir avec la version bêta de l'API Pokémon, ainsi que Tailwind CSS et Next.js en TypeScript. Vous pouvez rechercher un Pokémon et consulter ses caractéristiques détaillées.",
+    tags: ["Typescript", "Next.js", "Graphql"],
+    demo: "https://mattfr-pokedex.netlify.app/",
+    linkGithub: "https://github.com/Matt-Fr/technical-test-pokedex",
   },
   {
     id: 3,
