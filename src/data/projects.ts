@@ -7,8 +7,24 @@ import sportsee from "../assets/projectImages/sportsee.jpg";
 import argentBank from "../assets/projectImages/argentBank.jpg";
 import fisheye from "../assets/projectImages/fisheye.jpg";
 import pokedex from "../assets/projectImages/pokedex.jpg";
+import stockLens from "../assets/projectImages/stockLens.jpg";
 
 export const dataProjects = [
+  {
+    id: 10,
+    title: "StockLens",
+    logo: "logoStockLens",
+    picture: stockLens,
+    descriptionEn:
+      "StockLens is a dashboard application developed using Angular 18 with Signals, RxJS, and PrimeNG. It enables users to visualize and compare American stocks and ETFs. The application also provides articles related to the stocks, allowing users to read insights and analyses. Additionally, users can select favorite trackers and save them for easy access later. The project is still in development, and the demo is currently unavailable.",
+    descriptionFr:
+      "StockLens est une application en développement construite avec Angular 18, Signals, RxJS et PrimeNG. Elle utilise plusieurs API, dont Polygon.io et TickerNews, pour permettre la visualisation et la comparaison d'actions et d'ETFs américains, ainsi que pour proposer des articles sur les marchés financiers. Les utilisateurs peuvent également sélectionner et conserver leurs trackers favoris pour un accès rapide. Une démo sera disponible prochainement.",
+    shortDescription:
+      "Dashboard pour visualiser et comparer des actions et ETFs américains.",
+    tags: ["Angular 18", "RxJS", "PrimeNG", "Signals"],
+    demo: "",
+    linkGithub: "https://github.com/Matt-Fr/stocksProject",
+  },
   {
     id: 5,
     title: "Kasa",
@@ -24,7 +40,6 @@ export const dataProjects = [
     demo: "https://kasa-matt-fr.vercel.app/",
     linkGithub: "https://github.com/Matt-Fr/Franck_Matthieu_11_26042022",
   },
-
   {
     id: 6,
     title: "SportSee",
