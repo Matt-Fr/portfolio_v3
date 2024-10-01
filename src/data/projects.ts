@@ -18,7 +18,7 @@ export const dataProjects = [
     descriptionEn:
       "StockLens is a dashboard application developed using Angular 18 with Signals, RxJS, and PrimeNG. It enables users to visualize and compare American stocks and ETFs. The application also provides articles related to the stocks, allowing users to read insights and analyses. Additionally, users can select favorite trackers and save them for easy access later. The project is still in development, and the demo is currently unavailable.",
     descriptionFr:
-      "StockLens est une application en développement construite avec Angular 18, Signals, RxJS et PrimeNG. Elle utilise plusieurs API, dont Polygon.io et TickerNews, pour permettre la visualisation et la comparaison d'actions et d'ETFs américains, ainsi que pour proposer des articles sur les marchés financiers. Les utilisateurs peuvent également sélectionner et conserver leurs trackers favoris pour un accès rapide. Une démo sera disponible prochainement.",
+      "StockLens est une application en développement construite avec Angular 18, Signals, RxJS et PrimeNG. Elle utilise plusieurs API, dont Polygon.io et TickerNews, pour permettre la visualisation et la comparaison d'actions et d'ETFs américains, ainsi que pour proposer des articles sur les marchés financiers. Les utilisateurs peuvent également sélectionner et conserver leurs trackers favoris pour un accès rapide.",
     shortDescription:
       "Dashboard pour visualiser et comparer des actions et ETFs américains.",
     tags: ["Angular 18", "RxJS", "PrimeNG", "Signals"],
