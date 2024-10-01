@@ -22,7 +22,7 @@ export const dataProjects = [
     shortDescription:
       "Dashboard pour visualiser et comparer des actions et ETFs américains.",
     tags: ["Angular 18", "RxJS", "PrimeNG", "Signals"],
-    demo: "",
+    demo: "https://stocklens-six.vercel.app/",
     linkGithub: "https://github.com/Matt-Fr/stocksProject",
   },
   {
